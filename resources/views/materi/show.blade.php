@@ -4,7 +4,7 @@
         </h5>
     </div>
     <br>
-    <x-template.button.back-button url="admin/materi" />
+    <button onclick="history.go(-1);" class="btn btn-primary btn-tone btn-sm"><i class="fas fa-arrow-left"></i> Kembali</button>
     <div class="row">
         <div class="col-md-12">
             <div class="card">

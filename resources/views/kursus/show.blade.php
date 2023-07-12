@@ -31,6 +31,10 @@
             </div>
         </div>
     </div>
+    <div class="card-header">
+        <h5 class="m-0 font-weight-bold text-dark" style="text-align:center; font-size: 25px"> MATERI</h5>
+    </div>
+    <br>
     <div class="card">
         <div class="accordion borderless" id="accordion-borderless">
             <div class="card">
@@ -93,6 +97,7 @@
                         <tr>
                             <td class="text-center">
                                 <div class="btn-group">
+                                    <x-template.button.info-button url="admin/materi" id="{{$m->id}}" />
                                     <x-template.button.edit-button url="admin/materi" id="{{ $m->id }}" />
                                     <x-template.button.delete-button url="admin/materi" id="{{ $m->id }}" />
                                 </div>
